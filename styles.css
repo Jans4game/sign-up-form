@@ -1,0 +1,234 @@
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    background-image: url(/home/dante22/sign-up-form/images/tim-schmidbauer-TE_lOmkKq04-unsplash.jpg        );
+    background-repeat: no-repeat;   
+    background-size: cover ;
+    
+}
+
+.pic{
+    flex: 1;
+    min-height: 57.6em;
+    align-self: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-top: 22.5em;
+    padding-bottom: 0.5em;
+}
+
+.ct{
+    padding-left: 14em;
+}
+.os{
+    background-color: white;
+}
+
+.desct{
+    flex: 1;
+    color: white;
+    font-size: 4.7em;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 0.4em;
+}
+
+.sloan{
+    color: white;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 16em;
+    
+}
+
+.sloan2{
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.desos{
+    flex: 1;
+    color: black;
+    font-size: 7em;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.picture{
+    opacity: 80%;
+}
+
+.form{
+    flex: 1;
+    align-self: center;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+h1{
+    padding-left: 1em;
+    color: white;
+}
+
+
+
+.box{
+    border: 3px solid white;
+}
+
+/*this contains the firstname and lastname*/
+
+.nametag{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    padding-top: 1.5em;
+}
+
+.firstnametag{
+    flex: 1;
+    padding-left: 2em;
+}
+
+#firstName{
+    height: 2em;
+    width: 17em;
+}
+
+.firster{
+    color: white;
+    height: 40px;
+    padding-right: 70%;
+    font-weight: bolder;
+}
+
+.lastnametag{
+    flex: 1;
+}
+
+#lastName{
+    height: 2em;
+    width: 17em;
+}
+
+.laster{
+    color: white;
+    height: 40px;
+    padding-right: 70%;
+    font-weight: bolder;
+
+}
+
+/*the firstname and lastname content ends here*/
+
+/*this content has email and the phone number*/
+
+.emailnumtag{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.emailtager{
+    flex: 1;
+    padding-left: 2em;
+}
+
+#emailed{
+    height: 2em;
+    width: 17em;
+}
+
+.emailer{
+    color: white;
+    height: 40px;
+    padding-right: 70%;
+    font-weight: bolder;
+}
+
+.numtager{
+    flex: 1;
+}
+
+#phonenum{
+    height: 2em;
+    width: 17em;
+}
+
+.phone{
+    color: white;
+    height: 40px;
+    padding-right: 60%;
+    font-weight: bolder;
+}
+
+/*this content ends here which has email and phone number*/
+
+/*this content contains both password and the confirmation of the password tag*/
+
+.passwordtager{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.passtager{
+    flex: 1;
+    padding-left: 2em;
+}
+
+#passwork{
+    height: 2em;
+    width: 17em;
+}
+
+.passer{
+    color: white;
+    padding-right: 70%;
+    font-weight: bolder;
+}
+
+.confirmpasstager{
+    flex: 1;
+}
+
+#confpasswork{
+    height: 2em;
+    width: 17em;
+}
+
+.confpasser{
+    color: white;
+    padding-right: 50%;
+    font-weight: bolder;
+}
+
+/*this content ends here*/
+
+/* Submit Button */
+
+.submitter{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#submitbutton{
+    height: 3em;
+    width: 7em;
+    border-radius: 10px;
+    background-color: black;
+    font-weight: bolder;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
